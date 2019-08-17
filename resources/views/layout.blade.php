@@ -11,6 +11,24 @@
 <body>
     @include("partials.navigation")
     @yield("content")
+    @if ($errors->any())
+        <div class="container">
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        </div>
+    @endif
+    @if (Session::has('success'))
+        <div class="container">
+            <div class="alert alert-success">
+            <p>{{session("success")}}</p>
+            </div>
+        </div>
+    @endif
 </body>
 
 </html>

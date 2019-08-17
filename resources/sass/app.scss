@@ -2,10 +2,21 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 // Variables
 @import 'variables';
+$theme-colors: ( primary: $purple,
+secondary: $blue,
+success: $teal,
+info: $cyan,
+warning: $orange,
+danger: $red);
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import 'bootswatch';
 //@import '~mustard-ui'
 html,
 body {
     height: 100%
+}
+
+body {
+    font-family: "Verdana";
 }

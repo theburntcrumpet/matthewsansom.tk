@@ -19,6 +19,6 @@ Route::get('about', function () {
     return view ('about');
 } );
 
-Route::get('contact', function () {
-    return view ('contact');
-} );
+Route::resource('contact', 'Contact')->only([
+    'index', 'store'
+]);

@@ -8,7 +8,7 @@
         <div class="text-center my-auto">
             <main role="main" class="inner cover">
                 <h1 class="cover-heading">Matthew Sansom. Software Developer.</h1>
-                <p class="lead">Over 2 years experience working with technologies such as Python, C++ and PHP (using the Laravel framework)</p>
+                <p class="lead text-muted">Over 2 years of industry experience working with technologies such as Python, C++ and PHP (using the Laravel framework)</p>
                 <p><a href="/about" class="btn btn-primary">Learn More</a></p>
             </main>
         </div>
