@@ -4,7 +4,7 @@
 @section("content")
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <h2>Software was my first love. Software will be my last.</h2>
             <p>My name is Matthew Sansom. I am a 23-year-old software developer from Nottinghamshire. 
                 I've worked in the tech industry for over 5 years, and over 2 of those 
@@ -12,6 +12,18 @@
                 on a full-time basis in order to complete my degree, whilst actively seeking freelance work. Software isn't just a career choice for me. It is also a hobby.
                 Much of my spare time is spent tinkering with Linux distros, Arduinos, Raspberry Pi's and reading books about software and hardware.</p>
             <p>During the course of my Open University degree, I've also been exposed to Java. In my spare time, I've had exposure to game engines such as Unity.</p>
+        </div>
+        <div class="col-md-4">
+          <h2>My Skills</h2>
+          <ul>
+            <li>C++ (Microsoft Visual C++ using the MFC Libraries)</li>
+            <li>Python</li>
+            <li>PHP (Laravel)</li>
+            <li>Java</li>
+            <li>Linux</li>
+            <li>Windows</li>
+            <li>Jenkins CI</li>
+          </ul>
         </div>
     </div>
     <div class="row">
