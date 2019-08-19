@@ -12,6 +12,7 @@
                 on a full-time basis in order to complete my degree, whilst actively seeking freelance work. Software isn't just a career choice for me. It is also a hobby.
                 Much of my spare time is spent tinkering with Linux distros, Arduinos, Raspberry Pi's and reading books about software and hardware.</p>
             <p>During the course of my Open University degree, I've also been exposed to Java. In my spare time, I've had exposure to game engines such as Unity.</p>
+            <p class="lead">Still Reading? <a href="/contact">Contact Me!</a></p>
         </div>
         <div class="col-md-4">
           <h2>My Skills</h2>
@@ -54,6 +55,7 @@
             </ul>
         </div>
     </div>
+    <div class="row">
     <div class="col-md-12">
             <h2>Education</h2>
             <ul>
@@ -74,8 +76,6 @@
             </ul>
           </div>
         </div>
-        </div>
-        
-</div>
+        </div>    
 
 @endsection

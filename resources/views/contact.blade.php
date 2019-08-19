@@ -24,7 +24,7 @@
                 <div class="form-group row">
                     <label for="messageid" class="col-sm-3 col-form-label">Message</label>
                     <div class="col-sm-9">
-                        <textarea name="content" class="form-control" id="messageid" placeholder="Message (required)"></textarea>
+                        <textarea name="content" class="form-control" id="messageid" placeholder="Message (required)" rows="6"></textarea>
                     </div>
                 </div>
                 <div class="form-group row">
